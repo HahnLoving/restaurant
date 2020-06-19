@@ -1,0 +1,173 @@
+.search {
+    margin-top: 5px;
+    width: 750rpx;
+    height: 40px;
+}
+
+/* 菜单 */
+.menu {
+    margin-top: 5px;
+    width: 750rpx;
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+}
+
+
+.scroll-right {
+    width: 750rpx;
+}
+
+.scroll-right-top {
+    width: 750rpx;
+    height: 30px;
+}
+
+.scroll-right-top-text {
+    margin-left: 30rpx;
+    width: 690rpx;
+    height: 30px;
+    line-height: 30px;
+    font-size: 25rpx;
+    color: gray;
+    border-bottom: 1rpx solid #f1f1f1;
+}
+
+.scroll-right-view {
+    width: 690rpx;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.scroll-right-view .card {
+    margin-left: 30rpx;
+    width: 690rpx;
+    height: 125px;
+}
+
+.scroll-right-view .right-card {
+    width: 85px;
+    height: 85px;
+    margin-left: -5rpx;
+}
+
+.content {
+    font-size: 25rpx;
+    color: gray;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    margin-left: -15rpx;
+    height: 30px;
+    line-height: 30px;
+}
+
+.right-title-card{
+    font-size: 30rpx;
+    font-weight: bold;
+    margin-left: -15rpx;
+}
+
+.price-box{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    margin-top: 5rpx;
+    font-size: 20rpx;
+    color: gray;
+}
+
+.tag{
+    margin-left: -15rpx !important;
+    font-size: 20rpx !important;
+    color: black !important;
+    padding: 2rpx 5rpx 2rpx 5rpx !important;
+    height: 20px !important;
+}
+
+
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27rpx;
+    margin-left: -15rpx;
+}
+
+
+
+.add-tap-btn{
+    background-color: #166546 !important;
+    color: white !important;
+    border-radius: 50% !important;
+
+}
+
+.add-no-tap-btn{
+    border-radius: 50% !important;
+
+}
+
+.remove-tap-btn{
+    color: white !important;
+    border-radius: 50% !important;
+
+}
+
+.remove-tap-btn1{
+    color: white !important;
+    border-radius: 50% !important;
+    background-color: #ffffff!important;
+}
+
+.remove-no-tap-btn{
+    color: white !important;
+    border-radius: 50% !important;
+}
+
+
+
+.count-tap{
+    background-color: white !important;
+}
+
+.count-tap1{
+    background-color: white !important;
+    color: white !important;
+}
+
+.label-btn{
+    font-size: 25rpx !important;
+}
+
+.btn{
+    position: relative;
+}
+
+.btn .num{
+    position: absolute;
+    top: -17rpx;
+    right: -5rpx;
+    height: 35rpx;
+    line-height: 35rpx;
+    border-radius: 17.5rpx;
+    padding-left: 13rpx;
+    padding-right: 13rpx;
+    text-align: center;
+    background-color: #ff8040;
+    color: white;
+    font-size: 25rpx;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+

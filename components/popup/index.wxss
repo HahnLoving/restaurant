@@ -1,0 +1,83 @@
+.center {
+    height: 765rpx;
+    width: 500rpx;
+    background: #fff;
+    color: #555;
+    position: relative;
+    border-radius: 10rpx;
+}
+
+.center .img{
+    border-top-left-radius: 10rpx;
+    border-top-right-radius: 10rpx;
+    width: 500rpx;
+    height: 500rpx;
+}
+
+.subtitle-box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:420rpx;
+    height: 80rpx;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.subtitle{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:420rpx;
+    width: 470rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 25rpx;
+    color: white;
+    margin-left: 15rpx;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.title{
+    margin-left: 15rpx;
+    width: 470rpx;
+    font-size: 32rpx;
+    color: black;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.tag{
+    margin-top: 10rpx !important;
+    margin-left: 15rpx !important;
+    font-size: 20rpx !important;
+    color: black !important;
+    padding: 2rpx 5rpx 2rpx 5rpx !important;
+    height: 20px !important;
+}
+
+.price-box{
+    margin-top: 10rpx;
+    margin-left: 15rpx;
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    margin-top: 7rpx;
+    font-size: 20rpx;
+    color: gray;
+}
+
+.btn{
+    margin-left: 15rpx !important;
+    margin-top: 10rpx !important;
+    width: 470rpx !important;
+    height: 60rpx !important;
+    font-size: 27rpx !important;
+}
+
+.label-btn{
+    font-size: 27rpx !important;
+}

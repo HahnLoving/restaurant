@@ -1,0 +1,2 @@
+<!--pages/index/index.wxml-->
+<view class="tap" bindtap="tap"> 点击进入 </view>

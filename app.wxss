@@ -1,0 +1,59 @@
+/**app.wxss**/
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+@font-face {
+  font-family: 'hahn-store';  /* project id 1879943 */
+  src: url('//at.alicdn.com/t/font_1879943_k836vn58nx.eot');
+  src: url('//at.alicdn.com/t/font_1879943_k836vn58nx.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1879943_k836vn58nx.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1879943_k836vn58nx.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1879943_k836vn58nx.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1879943_k836vn58nx.svg#hahn-store') format('svg');
+}
+
+.hahn-store{
+  font-family: hahn-store !important;
+  color:#000000 !important;
+}
+
+
+.l-icon-back:before {
+  content: "\e623";
+}
+
+.l-icon-home:before {
+  content: "\e622";
+}
+
+.l-icon-address:before {
+  content: "\e613";
+}
+
+.l-icon-address:before {
+  content: "\e613";
+}
+
+.l-icon-tiqian:before{
+  content: "\e624";
+}
+
+.l-icon-daodian:before{
+  content: "\e607";
+}
+
+.l-icon-waimai:before{
+  content: "\e685";
+}
+
+.l-icon-saoma:before{
+  content: "\e621";
+}

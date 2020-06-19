@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/commodit/index",
+    "pages/web/index",
+    "pages/search/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "l-button": "/miniprogram_npm/lin-ui/button/index",
+    "l-tabbar": "/miniprogram_npm/lin-ui/custom-tab-bar/index",
+    "l-icon": "/miniprogram_npm/lin-ui/icon/index",
+    "l-card": "/miniprogram_npm/lin-ui/card/index",
+    "l-loading": "/miniprogram_npm/lin-ui/loading/index",
+    "l-grid": "/miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item": "/miniprogram_npm/lin-ui/grid-item/index",
+    "l-list": "/miniprogram_npm/lin-ui/list/index",
+    "l-search-bar": "/miniprogram_npm/lin-ui/search-bar/index",
+    "l-tag": "/miniprogram_npm/lin-ui/tag/index",
+    "l-price": "/miniprogram_npm/lin-ui/price/index",
+    "l-counter": "/miniprogram_npm/lin-ui/counter/index",
+    "l-popup": "/miniprogram_npm/lin-ui/popup/index",
+    "l-transition": "/miniprogram_npm/lin-ui/transition/index",
+    "z-navigation": "/components/navigation/index",
+    "z-spec": "/components/spec/index",
+    "z-search-commodit": "/components/search-commodit/index",
+    "z-cat": "/components/cat/index",
+    "z-popup": "/components/popup/index",
+    "z-commodit-list": "/components/commodit-list/index"
+  },
+  "resizable": true
+}

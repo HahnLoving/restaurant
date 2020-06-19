@@ -1,0 +1,151 @@
+.cat{
+    position: fixed;
+    left: 30rpx;
+    bottom: 80rpx;
+    width: 690rpx;
+    height: 80rpx;
+    border-radius: 40rpx;
+    background-color: white;
+    box-shadow: 1rpx 1rpx 1rpx 1rpx  #e6e6e6;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+
+.cat .left{
+    width: 440rpx;
+    height: 80rpx;
+    font-size: 32rpx;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cat .left .text{
+    margin-left: 50rpx;
+    color: gray;
+}
+
+.cat .right{
+    width: 250rpx;
+    height: 80rpx;
+    background-color: #166546;
+    color: white;
+    font-size: 32rpx;
+    border-bottom-right-radius: 40rpx;
+    border-top-right-radius: 40rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cat .line:before{
+    content:"";
+    position:absolute;
+    left:362rpx;
+    bottom:0;
+    width:0;
+    height:0;
+    border:40rpx solid transparent;
+    border-right:40rpx solid #166546;
+    border-bottom:40rpx solid #166546;
+    margin-left: 0;
+}
+
+.cat .line1{
+    content:"";
+    position:absolute;
+    left:437rpx;
+    bottom:0;
+    width:20rpx;
+    height:80rpx;
+    background-color: #166546;
+}
+
+.content{
+    width: 750rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    background-color: #e6e6e6;
+    font-size: 32rpx;
+    border-bottom: 1rpx solid #dbdbdb;
+    color: black;
+    position: relative;
+}
+
+.content .icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 30rpx;
+}
+
+.botton{
+    width: 750rpx;
+    min-height: 200rpx;
+    max-height: 50vh;
+    padding-bottom: 200rpx;
+    background-color: white;
+}
+
+.botton .box{
+    width: 750rpx;
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botton .box .left{
+    font-size: 27rpx;
+    color: gray;
+    margin-left: 30rpx;
+}
+
+.botton .box .right{
+    width: 300rpx;
+    margin-right: 30rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-tap-btn{
+    background-color: #166546 !important;
+    color: white !important;
+    border-radius: 50% !important;
+
+}
+
+.add-no-tap-btn{
+    border-radius: 50% !important;
+
+}
+
+.remove-tap-btn{
+    color: white !important;
+    border-radius: 50% !important;
+
+}
+
+.remove-tap-btn1{
+    color: white !important;
+    border-radius: 50% !important;
+    background-color: #ffffff!important;
+}
+
+.remove-no-tap-btn{
+    color: white !important;
+    border-radius: 50% !important;
+}
+
+.count-tap{
+    background-color: white !important;
+}
+
+.count-tap1{
+    background-color: white !important;
+    color: white !important;
+}

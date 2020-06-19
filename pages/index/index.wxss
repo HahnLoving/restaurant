@@ -1,0 +1,6 @@
+.tap{
+  width: 750rpx;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+}

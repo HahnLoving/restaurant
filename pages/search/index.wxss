@@ -1,0 +1,6 @@
+.container{
+    width: 750rpx;
+    height: 500rpx;
+    background-color: red;
+}
+

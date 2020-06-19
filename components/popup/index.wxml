@@ -1,0 +1,15 @@
+<l-popup show="{{isShowCommodit}}" bind:lintap="commoditTap">
+    <view class='center'>
+        <image class="img" src="{{popupData.img}}"></image>
+        <view class="subtitle-box"></view>
+        <view class="subtitle">{{popupData.subtitle}}</view>
+        <view class="title">{{popupData.title}}</view>
+        <l-tag disable="{{true}}" l-class="tag" shape="square">{{popupData.tags}}</l-tag>
+        <view class="price-box">
+            <l-price unit="￥" value="{{popupData.price}}" color="#ff8040"></l-price>
+            <view class="price">/单位</view>
+        </view>
+        <l-button bindtap="goToCatTap" l-class="btn" type="default" shape="semicircle" bg-color="#166546" l-label-class="label-btn">加入购物车
+        </l-button>
+    </view>
+</l-popup>

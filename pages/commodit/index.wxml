@@ -1,0 +1,24 @@
+<view>
+    <z-navigation id="navigationBar" placeholderBg="" color="{{color}}" title="{{title}}" back="{{true}}"
+                  background="{{barBg}}" fixed="{{fixed}}" backConfirm="{{backConfirm}}" backStyle="{{backStyle}}"
+                  backEvent="{{backEvent}}" bind:back="backEvent" backHomeEvent="{{backHomeEvent}}"
+                  bind:backHome="backHomeEvent">
+        <view wx:if="{{type == 'daodian'}}">
+            <view class="address-box">
+                <view class="top">
+                    地址
+                    <text class="text">[切换]</text>
+                </view>
+                <view class="bottom">
+                    地址距离
+                </view>
+            </view>
+        </view>
+
+
+
+    </z-navigation>
+
+    <z-commodit-list></z-commodit-list>
+
+</view>

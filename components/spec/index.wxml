@@ -1,0 +1,72 @@
+<wxs src="../../wxs/specs.wxs" module="s"></wxs>
+<l-popup show="{{isShowSpec}}" bind:lintap="specTap">
+    <view class='center'>
+
+        <view class="title">{{popupData.title}}({{sku.title}})</view>
+        <scroll-view scroll-y class="scroll">
+
+            <view class="tag" wx:for="{{allSpecsList}}" wx:key="item" wx:for-index="x">
+                <view class="tag-title">
+                    {{item.key}}
+                </view>
+
+                <view class="tag-box">
+                    <view data-item="{{item.value_list}}" wx:for="{{item.value_list}}" wx:for-index="y"
+                          wx:for-item="value" wx:key="item"
+                          data-key_id="{{item.key_id}}"
+                          data-value_id="{{value.value_id}}"
+                          data-select="{{s.getButtonStatus(value.selected, value.disabled)}}"
+                          data-x="{{x}}"
+                          data-y="{{y}}"
+                          bindtap="handleClickSpecs">
+
+<!--                        {{value.selected}}{{ value.disabled }}-->
+                        <l-tag wx:if="{{ value.selected }}" l-class="tag-box-tag" bg-color="#166546"
+                               font-color="#ffffff"
+                               shape="square">
+                            {{value.value}}
+                        </l-tag>
+                        <l-tag wx:elif="{{ value.disabled }}" l-class="tag-box-tag1"  bg-color="#ffffff"
+                               font-color="#8a8a8a"
+                               shape="square">
+                            {{value.value}}
+                        </l-tag>
+                        <l-tag wx:else l-class="tag-box-tag" bg-color="#8a8a8a" plain="false" font-color="#8a8a8a"
+                               shape="square">
+                            {{value.value}}
+                        </l-tag>
+                    </view>
+                </view>
+
+            </view>
+
+        </scroll-view>
+
+        <view class="more">
+            <view class="price-box">
+                <l-price unit="￥" value="{{sku.price}}" color="#ff8040"></l-price>
+                <view class="price">
+                    <view>
+                        /单位
+                    </view>
+                </view>
+            </view>
+
+            <l-counter
+                    bind:lintap="upDataCat"
+                    data-item="{{sku}}"
+                    l-symbol-class="add-tap-btn"
+                    l-disabled-class="add-no-tap-btn"
+                    l-symbol-class1="{{sku.num>0?'remove-tap-btn':'remove-tap-btn1'}}"
+                    l-disabled-class1="{{sku.num>0?'remove-tap-btn':'remove-tap-btn1'}}"
+                    l-count-class="{{sku.num>0?'count-tap':'count-tap1'}}"
+                    count="{{sku.num}}"
+                    disabled="{{disabled}}"
+                    min="0"
+                    max="{{sku.stock}}"/>
+
+
+        </view>
+
+    </view>
+</l-popup>

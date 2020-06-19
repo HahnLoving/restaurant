@@ -1,0 +1,32 @@
+.address-box{
+    position: absolute;
+    left: 90rpx;
+    top: 0;
+    bottom: 0;
+    width: 250rpx;
+}
+
+.address-box .top{
+    position: absolute;
+    left: 0;
+    bottom: 10rpx;
+    font-size: 30rpx;
+    width: 250rpx;
+    text-align: left;
+}
+
+.address-box .top .text{
+    font-size: 25rpx;
+    color: #ff8040;
+}
+
+.address-box .bottom{
+    position: absolute;
+    left: 0;
+    bottom: -20rpx;
+    font-size: 25rpx;
+    color: gray;
+    width: 250rpx;
+    text-align: left;
+}
+

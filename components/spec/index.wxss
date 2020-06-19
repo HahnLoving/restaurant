@@ -1,0 +1,124 @@
+.center {
+    min-height: 500rpx;
+    max-height: 700rpx;
+    width: 500rpx;
+    background: #fff;
+    color: #555;
+    position: relative;
+    border-radius: 10rpx;
+}
+
+.title{
+    width: 500rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 32rpx;
+    border-bottom: 1rpx solid #f1f1f1;
+}
+
+.scroll{
+    min-height: 300rpx;
+    max-height: 500rpx;
+    width: 500rpx;
+}
+
+.more{
+    width: 460rpx;
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20rpx;
+}
+
+.price-box{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    margin-top: 12rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 20rpx;
+    color: gray;
+}
+
+.add-tap-btn{
+    background-color: #166546 !important;
+    color: white !important;
+    border-radius: 50% !important;
+
+}
+
+.add-no-tap-btn{
+    border-radius: 50% !important;
+
+}
+
+.remove-tap-btn{
+    color: white !important;
+    border-radius: 50% !important;
+
+}
+
+.remove-tap-btn1{
+    color: white !important;
+    border-radius: 50% !important;
+    background-color: #ffffff!important;
+}
+
+.remove-no-tap-btn{
+    color: white !important;
+    border-radius: 50% !important;
+}
+
+
+
+.count-tap{
+    background-color: white !important;
+}
+
+.count-tap1{
+    background-color: white !important;
+    color: white !important;
+}
+
+.tag{
+    width: 500rpx;
+}
+
+.tag-title{
+    margin-top: 25rpx;
+    width: 460rpx;
+    margin-left: 20rpx;
+    font-size: 27rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+
+.tag-box{
+    width: 460rpx;
+    margin-left: 20rpx;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tag-box-tag{
+    margin-right: 20rpx !important;
+    margin-top: 15rpx !important;
+    min-width: 100rpx !important;
+    font-size: 27rpx !important;
+}
+
+.tag-box-tag1{
+    margin-right: 20rpx !important;
+    margin-top: 15rpx !important;
+    min-width: 100rpx !important;
+    border: 1rpx dashed #8a8a8a !important;
+    font-size: 27rpx !important;
+}

@@ -1,0 +1,47 @@
+
+<l-transition show="true" name="fade" duration="600">
+    <view class='cat'>
+        <view class="left" bindtap="openCatTap">
+            <view class="text">价格:</view>
+            <l-price unit="￥" value="{{total}}" value-size="32" color="#ff8040"></l-price>
+        </view>
+        <view class="right">
+            选好了
+        </view>
+        <view class="line"></view>
+        <view class="line1"></view>
+    </view>
+</l-transition>
+
+<l-popup show="{{isCat}}" content-align="bottom" bind:lintap="catTap">
+
+    <view class="content">
+        已选菜品
+        <l-icon l-class="icon" name="delete" size="45" color="#8a8a8a" bindtap="clearDataTap"></l-icon>
+    </view>
+    <scroll-view scroll-y class="botton">
+        <view class="box" wx:for="{{catList}}" wx:key="item">
+            <view class="left">
+                {{item.fristId}}:{{item.secondId}}: {{item.title}}
+            </view>
+            <view class="right">
+
+                <l-price unit="￥" value="{{item.price}}" color="#ff8040"></l-price>
+                <view></view>
+
+                <l-counter
+                        bind:lintap="upDataCat"
+                        data-item="{{item}}"
+                        l-symbol-class="add-tap-btn"
+                        l-disabled-class="add-no-tap-btn"
+                        l-symbol-class1="{{item.num>0?'remove-tap-btn':'remove-tap-btn1'}}"
+                        l-disabled-class1="{{item.num>0?'remove-tap-btn':'remove-tap-btn1'}}"
+                        l-count-class="{{item.num>0?'count-tap':'count-tap1'}}"
+                        count="{{item.num}}"
+                        min="0"
+                        max="{{item.stock}}"/>
+            </view>
+        </view>
+    </scroll-view>
+
+</l-popup>
